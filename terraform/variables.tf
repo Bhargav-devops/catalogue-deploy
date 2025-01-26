@@ -21,3 +21,7 @@ variable "tags" {
 variable zone_name {
     default = "bhargavdevops.online"
 }
+
+variable app_version {
+  
+}
