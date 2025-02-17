@@ -43,7 +43,6 @@ pipeline {
                 """
             }
         }
-        
         stage('Apply') {
             steps {
                 sh """
