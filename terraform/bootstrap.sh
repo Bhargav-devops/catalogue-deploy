@@ -13,7 +13,7 @@ yum install python3.12-devel python3.12-pip -y
 pip3.12 install botocore boto3
 yum install ansible -y
 
-ansible-pull -U https://github.com/Bhargav-devops/roroboshop-ansible-roles-tf.git -e component=$component -e env=$environment -e -e app_version=$app_version main-tf.yaml
+ansible-pull -U https://github.com/Bhargav-devops/roroboshop-ansible-roles-tf.git -e component=$component -e env=$environment -e app_version=$app_version main-tf.yaml
 
 # ansible-pull -U https://github.com/daws-76s/roboshop-ansible-roles-tf.git \
 #   -e component=$component \
